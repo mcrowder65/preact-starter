@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "preact-starter",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "preact build",
+    "start": "preact watch"
+  },
+  "eslintConfig": {
+    "extends": "preact",
+    "ignorePatterns": [
+      "build/"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^2.1.1"
+  },
+  "dependencies": {
+    "preact": "^10.3.2",
+    "preact-render-to-string": "^5.1.4"
+  }
+}
